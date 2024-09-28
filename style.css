@@ -128,3 +128,17 @@ header{
 .move .line3{
     transform: rotate(45deg) translate(-5px,-5px);
 }
+.home{
+    min-height: 650px;
+    background: var(--red);
+    position: relative;
+    padding: 7rem 0 2rem;
+}
+.home-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--bg-color);
+
+}
