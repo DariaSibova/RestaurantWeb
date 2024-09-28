@@ -140,5 +140,23 @@ header{
     align-items: center;
     gap: 1.5rem;
     color: var(--bg-color);
-
+}
+.home-text{
+    z-index: 4;
+}
+.home-text h1{
+    font-family: var(--font-family-2);
+    font-size: 6.2rem;
+    line-height: 6.8rem;
+    font-weight: 800;
+}
+.home-text p{
+    font-size: 1.025rem;
+    margin: 2rem 0 1rem;
+}
+.home-text h3{
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
 }
