@@ -1,6 +1,6 @@
 /*.Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Righteous&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200&family=Righteous&display=swap');*{
+    
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -39,4 +39,22 @@ section{
     max-width: 1400px;
     margin: auto;
     width: 100%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--red);
+    border-bottom: 1px solid rgt(255 255 255 / 10%);
+    z-index: 100;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+.logo img{
+    width: 75px;
 }
