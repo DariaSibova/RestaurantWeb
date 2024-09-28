@@ -75,3 +75,40 @@ header{
     color: var(--text-alter-color);
     transition: 0.4s all cubic-bezier(0.075, 0.82, 0.165, 1);
 } 
+.nav-icons{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.nav-icons .bx{
+    color: var(--bg-color);
+    font-size: 20px;
+}
+.cart{
+    position: relative;
+}
+.cart span{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: var(--text-color);
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.menu-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+    cursor: pointer;
+    z-index: 200;
+    transition: 0.3s;
+}
