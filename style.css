@@ -1,12 +1,12 @@
 /*.Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Poppins&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Righteous&display=swap');
 *{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
     scroll-padding-top: 3rem;
-    
+    font-family: var(--font-family-1);
 
 }
 /*Variables*/
@@ -18,7 +18,14 @@
     --red: #a72e1b;
     --bg-color : #fff;
     --text-alter-color: #94908e;
-    --font-family-1: ;
-    --font-family-2: ;
+    --font-family-1: "Mitr", sans-serif;
+    --font-family-2: "Righteous", sans-serif ;
 
+}
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+a{
+    text-decoration: none;
 }
