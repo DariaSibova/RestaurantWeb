@@ -189,3 +189,24 @@ header{
     object-fit: cover;
     object-position: center center;
 }
+.features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto,310px));
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid rgb(18 18 18 / 20%);
+}
+.feature-box{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.feature-img{
+    width: 50px;
+}
+.feature-text h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
