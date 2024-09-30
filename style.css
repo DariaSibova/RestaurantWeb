@@ -344,6 +344,15 @@ header{
     display: grid;
     grid-template-columns: 82px 1fr;
     align-items: center;
+    border-top: 1px dashed #ffffff7c;
     gap: 10px;
     cursor: pointer;
+}
+.m-item-box:hover{
+    background: var(--yellow-color);
+    transition: background 0.3 ease-in-out;
+}
+.burgers-content:last-child,
+.bbq-content:last-child{
+    border-bottom: 1px dashed #ffffff7c;
 }
