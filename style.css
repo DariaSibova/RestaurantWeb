@@ -378,3 +378,17 @@ header{
     color: rgb(255 255 255 / 70%);
     margin-top: 4px;
 }
+.m-item-price{
+    padding-left: 15px;
+    border-left: 1px dashed #ffffff7c;
+}
+.m-item-price h3{
+    font-size: 1.075rem;
+    font-weight: 500;
+}
+.m-item-price p{
+    font-weight: 400;
+    color: rgb(255 255 255 / 70%);
+    text-decoration: line-through;
+    margin-top: 7px;
+}
