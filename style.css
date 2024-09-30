@@ -347,6 +347,7 @@ header{
     border-top: 1px dashed #ffffff7c;
     gap: 10px;
     cursor: pointer;
+    padding: 10px;
 }
 .m-item-box:hover{
     background: var(--yellow-color);
@@ -355,4 +356,25 @@ header{
 .burgers-content:last-child,
 .bbq-content:last-child{
     border-bottom: 1px dashed #ffffff7c;
+}
+.m-item-box img{
+    max-width: 82px;
+    border-radius: 10px;
+}
+.m-item-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.m-item-des{
+    padding: 0 16px 0 8px;
+}
+.m-item-des h3{
+    font-size: 1.075rem;
+    font-weight: 500;
+}
+.m-item-des p{
+    font-size: 0.94rem;
+    color: rgb(255 255 255 / 70%);
+    margin-top: 4px;
 }
