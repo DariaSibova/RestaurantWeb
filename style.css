@@ -28,6 +28,14 @@ body{
     color: var(--text-color);
     background: var(--bg-color);
 }
+/* Custom Scroll Bar */
+html::-webkit-scrollbar{
+    width: 0.5rem;
+    background: transparent ;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--red);
+}
 a{
     text-decoration: none;
 }
