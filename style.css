@@ -689,4 +689,8 @@ header{
     .feature-menu-content{
         justify-content: center;
     }
+    .menu-box h2{
+        text-align: center;
+
+    }
 }
