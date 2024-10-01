@@ -678,4 +678,15 @@ header{
         grid-template-columns: repeat(2,1fr);
         gap:1rem;
     }
+    .footer-content{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:390px){
+    .navbar{
+        width: 100%;
+    }
+    .feature-menu-content{
+        justify-content: center;
+    }
 }
