@@ -550,3 +550,54 @@ header{
     color: var(--bg-color);
     text-align: center;
 }
+/* Making Responsive */
+@media(max-width:1410px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .features{
+        border-bottom: none;
+    }
+    .feature-box{
+        border-bottom: 1px solid rgb(18 18 18 / 20%);
+        padding-bottom: 12px;
+    }
+}
+@media(max-width:1195px){
+    .home-text h1{
+        font-size: 4.2rem;
+        line-height: 4.8rem;
+    }
+    .hoe-text h3{
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 400;
+    }
+}
+@media(max-width:975px){
+    .heading{
+        font-size: 2.8rem;
+    }
+    .item-content{
+        /* display: grid; */
+        grid-template-columns: repeat(3, 1fr);
+        /* gap: 1.5rem; */
+    }
+    .menu-container ,
+    .testimonials-content{
+        grid-template-columns: 1fr
+    }
+    .menu-box h2{
+        font-size: 1.7rem;
+    }
+    .newsletter h2{
+        font-size: 2.4rem;
+    }
+    .footer-content{
+        /* display: grid; */
+        grid-template-columns: repeat(2, 1fr);
+        /* gap: 1.5rem; */
+        /* padding: 40px 0 30px; */
+    }
+}
